@@ -14,6 +14,7 @@
 		110F70B81DFCE26A008BC5D2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 110F70B61DFCE26A008BC5D2 /* LaunchScreen.storyboard */; };
 		110F70C31DFCE26B008BC5D2 /* FunFactsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 110F70C21DFCE26B008BC5D2 /* FunFactsTests.swift */; };
 		110F70CE1DFCE26B008BC5D2 /* FunFactsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 110F70CD1DFCE26B008BC5D2 /* FunFactsUITests.swift */; };
+		110F70DC1E0091BE008BC5D2 /* FactProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 110F70DB1E0091BE008BC5D2 /* FactProvider.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		110F70C91DFCE26B008BC5D2 /* FunFactsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FunFactsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		110F70CD1DFCE26B008BC5D2 /* FunFactsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FunFactsUITests.swift; sourceTree = "<group>"; };
 		110F70CF1DFCE26B008BC5D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		110F70DB1E0091BE008BC5D2 /* FactProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FactProvider.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +100,7 @@
 			isa = PBXGroup;
 			children = (
 				110F70AD1DFCE26A008BC5D2 /* AppDelegate.swift */,
+				110F70DB1E0091BE008BC5D2 /* FactProvider.swift */,
 				110F70AF1DFCE26A008BC5D2 /* ViewController.swift */,
 				110F70B11DFCE26A008BC5D2 /* Main.storyboard */,
 				110F70B41DFCE26A008BC5D2 /* Assets.xcassets */,
@@ -261,6 +264,7 @@
 			files = (
 				110F70B01DFCE26A008BC5D2 /* ViewController.swift in Sources */,
 				110F70AE1DFCE26A008BC5D2 /* AppDelegate.swift in Sources */,
+				110F70DC1E0091BE008BC5D2 /* FactProvider.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
