@@ -27,6 +27,10 @@ class ViewController: UIViewController {
     // Dispose of any resources that can be recreated.
   }
 
+  //Added an action to our button. When the button gets clicked it runs this method below and changes the text in our label to a new string.
+  @IBAction func showFact() {
+    funFactLabel.text = "Another interesting fact!"
+  }
 
 }
 
