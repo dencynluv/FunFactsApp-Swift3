@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1101FB8B1E00D88600DD916B /* BackgroundColorProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1101FB8A1E00D88600DD916B /* BackgroundColorProvider.swift */; };
 		110F70AE1DFCE26A008BC5D2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 110F70AD1DFCE26A008BC5D2 /* AppDelegate.swift */; };
 		110F70B01DFCE26A008BC5D2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 110F70AF1DFCE26A008BC5D2 /* ViewController.swift */; };
 		110F70B31DFCE26A008BC5D2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 110F70B11DFCE26A008BC5D2 /* Main.storyboard */; };
@@ -35,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1101FB8A1E00D88600DD916B /* BackgroundColorProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BackgroundColorProvider.swift; sourceTree = "<group>"; };
 		110F70AA1DFCE26A008BC5D2 /* FunFacts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FunFacts.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		110F70AD1DFCE26A008BC5D2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		110F70AF1DFCE26A008BC5D2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -101,6 +103,7 @@
 			children = (
 				110F70AD1DFCE26A008BC5D2 /* AppDelegate.swift */,
 				110F70DB1E0091BE008BC5D2 /* FactProvider.swift */,
+				1101FB8A1E00D88600DD916B /* BackgroundColorProvider.swift */,
 				110F70AF1DFCE26A008BC5D2 /* ViewController.swift */,
 				110F70B11DFCE26A008BC5D2 /* Main.storyboard */,
 				110F70B41DFCE26A008BC5D2 /* Assets.xcassets */,
@@ -196,6 +199,7 @@
 				TargetAttributes = {
 					110F70A91DFCE26A008BC5D2 = {
 						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 9X9RAE2P6E;
 						ProvisioningStyle = Automatic;
 					};
 					110F70BD1DFCE26B008BC5D2 = {
@@ -264,6 +268,7 @@
 			files = (
 				110F70B01DFCE26A008BC5D2 /* ViewController.swift in Sources */,
 				110F70AE1DFCE26A008BC5D2 /* AppDelegate.swift in Sources */,
+				1101FB8B1E00D88600DD916B /* BackgroundColorProvider.swift in Sources */,
 				110F70DC1E0091BE008BC5D2 /* FactProvider.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -416,6 +421,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 9X9RAE2P6E;
 				INFOPLIST_FILE = FunFacts/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = sotocynthia.FunFacts;
@@ -428,6 +434,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 9X9RAE2P6E;
 				INFOPLIST_FILE = FunFacts/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = sotocynthia.FunFacts;
@@ -509,6 +516,7 @@
 				110F70D41DFCE26B008BC5D2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		110F70D51DFCE26B008BC5D2 /* Build configuration list for PBXNativeTarget "FunFactsTests" */ = {
 			isa = XCConfigurationList;
@@ -517,6 +525,7 @@
 				110F70D71DFCE26B008BC5D2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		110F70D81DFCE26B008BC5D2 /* Build configuration list for PBXNativeTarget "FunFactsUITests" */ = {
 			isa = XCConfigurationList;
@@ -525,6 +534,7 @@
 				110F70DA1DFCE26B008BC5D2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

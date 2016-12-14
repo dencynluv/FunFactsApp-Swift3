@@ -12,8 +12,12 @@ class ViewController: UIViewController {
 
   //creating an IBOutlet (Interface Builder Outlet) from the label in our View in the Story Board to our View Controller & created a stored property to manage it
   @IBOutlet weak var funFactLabel: UILabel!
+
+  @IBOutlet weak var funFactButton: UIButton!
   
-  let factProvider = FactProvider()
+  
+  let factProvider = FactProvider() //creating an instance of FactProvider and adding it as a property
+  let colorProvider = BackgroundColorProvider() //creating an instance of BackgroundColorProvider and adding it as a property
   
   
   override func viewDidLoad() {
@@ -29,10 +33,18 @@ class ViewController: UIViewController {
     // Dispose of any resources that can be recreated.
   }
 
-  //Added an action to our button. When the button gets clicked it runs this method below and changes the text in our label to a new string.
+  //Added an action to our button. When the button gets clicked it runs this method below
   @IBAction func showFact() {
     
+    //changes the text in our label to a new string by calling the randomFact method
     funFactLabel.text = factProvider.randomFact()
+    
+    //changes the color of the background to a random color by calling randomColor method`
+    let randomColor = colorProvider.randomColor()
+    view.backgroundColor = randomColor
+    
+    //changes the color of the text in the button to match the color of the background
+    funFactButton.tintColor = randomColor
   }
 
 }
